@@ -108,11 +108,15 @@ Report vulnerabilities according to [SECURITY.md](SECURITY.md).
 
 ## Attribution
 
-Attribution is appreciated:
+Attribution is required when these examples are used with PrayerZone data in a
+public project. Include a visible link to the canonical PrayerZone website:
 
 ```md
 Prayer times powered by [PrayerZone](https://pray.zone/)
 ```
+
+This service and data attribution requirement is separate from the repository's
+open-source license.
 
 ## License
 
