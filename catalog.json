@@ -1,0 +1,53 @@
+{
+  "name": "PrayerZone integration examples",
+  "canonicalWebsite": "https://pray.zone/",
+  "apiDocumentation": "https://pray.zone/api",
+  "widgetVersion": "v2.0.1",
+  "examples": [
+    {
+      "id": "vanilla-html",
+      "title": "Vanilla HTML widget",
+      "path": "examples/vanilla-html"
+    },
+    {
+      "id": "browser-api",
+      "title": "Browser API dashboard",
+      "path": "examples/browser-api"
+    },
+    {
+      "id": "react",
+      "title": "React component",
+      "path": "examples/react"
+    },
+    {
+      "id": "nextjs",
+      "title": "Next.js client component",
+      "path": "examples/nextjs"
+    },
+    {
+      "id": "vue",
+      "title": "Vue component",
+      "path": "examples/vue"
+    },
+    {
+      "id": "svelte",
+      "title": "Svelte component",
+      "path": "examples/svelte"
+    },
+    {
+      "id": "wordpress",
+      "title": "WordPress shortcode",
+      "path": "examples/wordpress"
+    },
+    {
+      "id": "node",
+      "title": "Node.js API script",
+      "path": "examples/node"
+    },
+    {
+      "id": "python",
+      "title": "Python API script",
+      "path": "examples/python"
+    }
+  ]
+}

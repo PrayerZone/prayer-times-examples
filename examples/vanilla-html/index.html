@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrayerZone vanilla HTML example</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, sans-serif;
+      }
+
+      body {
+        display: grid;
+        min-height: 100vh;
+        margin: 0;
+        place-items: center;
+        background: #071a20;
+      }
+
+      main {
+        width: min(92vw, 48rem);
+      }
+
+      prayer-zone-widget {
+        --pz-accent: #36d6ad;
+        --pz-background: #0d2930;
+        --pz-border: #24515a;
+        --pz-muted: #a4c7c9;
+        --pz-text: #f4fffc;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <prayer-zone-widget
+        city="london"
+        lang="en"
+        theme="dark"
+        show-qibla>
+      </prayer-zone-widget>
+    </main>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/PrayerZone/prayer-times-widget@v2.0.1/src/prayer-zone-widget.js">
+    </script>
+  </body>
+</html>

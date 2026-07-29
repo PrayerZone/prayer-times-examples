@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrayerZone browser API example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">PrayerZone API</p>
+      <h1>Daily prayer times</h1>
+
+      <form id="search-form">
+        <label>
+          City slug
+          <input id="city" value="paris" autocomplete="off" required />
+        </label>
+        <label>
+          Language
+          <select id="language">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+          </select>
+        </label>
+        <button type="submit">Load</button>
+      </form>
+
+      <p id="status" role="status" aria-live="polite"></p>
+      <section id="result" hidden>
+        <h2 id="location"></h2>
+        <p id="date"></p>
+        <table>
+          <thead>
+            <tr><th>Prayer</th><th>Time</th></tr>
+          </thead>
+          <tbody id="times"></tbody>
+        </table>
+      </section>
+
+      <footer>
+        Powered by <a href="https://pray.zone/">PrayerZone</a>
+      </footer>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

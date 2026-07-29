@@ -1,0 +1,87 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: #eafff8;
+  background: radial-gradient(circle at top right, #174c52, #06171c 55%);
+}
+
+main {
+  width: min(90vw, 42rem);
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.eyebrow {
+  color: #5ce5bc;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 1rem;
+  align-items: end;
+  padding: 1.25rem;
+  border: 1px solid #2b5860;
+  border-radius: 1rem;
+  background: #0c252b;
+}
+
+label {
+  display: grid;
+  gap: 0.4rem;
+}
+
+input,
+select,
+button {
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  border: 1px solid #3e6b71;
+  border-radius: 0.6rem;
+  padding: 0 0.8rem;
+  color: inherit;
+  background: #102f35;
+}
+
+button {
+  border-color: #53dcb5;
+  color: #05231e;
+  background: #53dcb5;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #2b5860;
+  text-align: left;
+}
+
+footer {
+  margin-top: 2rem;
+  color: #a8c9c7;
+}
+
+a {
+  color: #64e8c0;
+}
+
+@media (max-width: 40rem) {
+  form {
+    grid-template-columns: 1fr;
+  }
+}
